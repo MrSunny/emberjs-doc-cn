@@ -77,17 +77,54 @@
       
       
         <div id="sidebar">
-            <ol>
-          <li class="level-2">引言</li>
-          <li class="level-3"><a href="http://emberjs.com/documentation/#toc_what-is-ember-js">Ember.js 是什么?</a></li>
-          <li class="level-3"><a href="./index_files/index.htm"> Ember.js 有何不同?</a></li>
-          <li class="level-3"><a href="http://emberjs.com/documentation/#toc_ember-js-at-a-glance">Ember.js 概览</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_getting-started">Getting Started</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_the-ember-object-model">The Ember Object Model</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_subclassing-classes">Subclassing Classes</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_reopening-classes-and-instances">Reopening Classes and Instances</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_computed-properties-getters">Computed Properties (Getters)</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_computed-properties-setters">Computed Properties (Setters)</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_observers">Observers</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_bindings">Bindings</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_what-do-i-use-when">What Do I Use When?</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_creating-a-namespace">Creating a Namespace</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_describing-your-ui-with-handlebars">Describing Your UI with Handlebars</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_handlebars">Handlebars</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_ember-view">Ember.View</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_handlebars-basics">Handlebars Basics</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_if-else-and-unless">{{#if}}, {{else}}, and {{#unless}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_with">{{#with}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_binding-element-attributes-with-bindattr">Binding Element Attributes with {{bindAttr}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_binding-class-names-with-bindattr">Binding Class Names with {{bindAttr}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_handling-events-with-action">Handling Events with {{action}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_building-a-view-hierarchy">Building a View Hierarchy</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_view">{{view}}</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_setting-child-view-templates">Setting Child View Templates</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_setting-up-bindings">Setting Up Bindings</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_modifying-a-view-s-html">Modifying a View's HTML</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_displaying-a-list-of-items">Displaying a List of Items</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_writing-custom-helpers">Writing Custom Helpers</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_included-views">Included Views</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_views-in-depth">Views In-Depth</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_handling-events">Handling Events</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_manually-managed-views-with-ember-containerview">Manually Managed Views with Ember.ContainerView</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_render-pipeline">Render Pipeline</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_customizing-the-html-element">Customizing the HTML Element</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_attribute-bindings-on-a-view">Attribute Bindings on a View</a></li><li class="level-2"><a href="http://emberjs.com/documentation/#toc_the-ember-enumerable-api">The Ember Enumerable API</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_what-are-enumerables">What Are Enumerables?</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_enumerables-in-ember">Enumerables in Ember</a></li><li class="level-3"><a href="http://emberjs.com/documentation/#toc_the-enumerable-interface">The Enumerable Interface</a></li></ol>
+        <ol>
+            <li class="level-2">引言</li>
+            <li class="level-3"><a href="http://emberjs.com/documentation/#toc_what-is-ember-js">Ember.js 是什么?</a></li>
+            <li class="level-3"><a href="./index_files/index.htm"> Ember.js 有何不同?</a></li>
+            <li class="level-3"><a href="#toc_ember-js-at-a-glance">Ember.js 概览</a></li><li class="level-2"><a href="#toc_getting-started">入门</a></li><li class="level-2"><a href="#toc_the-ember-object-model">Ember对象模型</a></li>
+            <li class="level-3"><a href="#toc_subclassing-classes">类的子类</a></li>
+            <li class="level-3"><a href="#toc_reopening-classes-and-instances">重新打开类和实例</a></li>
+            <li class="level-3"><a href="#toc_computed-properties-getters">计算属性 （Getters）</a></li>
+            <li class="level-3"><a href="#toc_computed-properties-setters">计算属性 （Setters）</a></li>
+            <li class="level-3"><a href="#toc_observers">观察者</a></li>
+            <li class="level-3"><a href="#toc_bindings">绑定</a></li>
+            <li class="level-3"><a href="#toc_what-do-i-use-when">何时用何物？</a></li>
+            <li class="level-2"><a href="#toc_creating-a-namespace">创建命名空间</a></li>
+            <li class="level-2"><a href="#toc_describing-your-ui-with-handlebars">Describing Your UI with Handlebars</a></li>
+            <li class="level-3"><a href="#toc_handlebars">Handlebars</a></li>
+            <li class="level-3"><a href="#toc_ember-view">Ember.View</a></li>
+            <li class="level-3"><a href="#toc_handlebars-basics">Handlebars Basics</a></li>
+            <li class="level-3"><a href="#toc_if-else-and-unless">{{#if}}, {{else}}, and {{#unless}}</a></li>
+            <li class="level-3"><a href="#toc_with">{{#with}}</a></li>
+            <li class="level-3"><a href="#toc_binding-element-attributes-with-bindattr">Binding Element Attributes with {{bindAttr}}</a></li>
+            <li class="level-3"><a href="#toc_binding-class-names-with-bindattr">Binding Class Names with {{bindAttr}}</a></li>
+            <li class="level-3"><a href="#toc_handling-events-with-action">Handling Events with {{action}}</a></li>
+            <li class="level-3"><a href="#toc_building-a-view-hierarchy">Building a View Hierarchy</a></li>
+            <li class="level-3"><a href="#toc_view">{{view}}</a></li>
+            <li class="level-3"><a href="#toc_setting-child-view-templates">Setting Child View Templates</a></li>
+            <li class="level-3"><a href="#toc_setting-up-bindings">Setting Up Bindings</a></li>
+            <li class="level-3"><a href="#toc_modifying-a-view-s-html">Modifying a View's HTML</a></li>
+            <li class="level-3"><a href="#toc_displaying-a-list-of-items">Displaying a List of Items</a></li>
+            <li class="level-3"><a href="#toc_writing-custom-helpers">Writing Custom Helpers</a></li>
+            <li class="level-3"><a href="#toc_included-views">Included Views</a></li>
+            <li class="level-2"><a href="#toc_views-in-depth">Views In-Depth</a></li>
+            <li class="level-3"><a href="#toc_handling-events">Handling Events</a></li>
+            <li class="level-3"><a href="#toc_manually-managed-views-with-ember-containerview">Manually Managed Views with Ember.ContainerView</a></li>
+            <li class="level-3"><a href="#toc_render-pipeline">Render Pipeline</a></li>
+            <li class="level-3"><a href="#toc_customizing-the-html-element">Customizing the HTML Element</a></li>
+            <li class="level-3"><a href="#toc_attribute-bindings-on-a-view">Attribute Bindings on a View</a></li>
+            <li class="level-2"><a href="#toc_the-ember-enumerable-api">The Ember Enumerable API</a></li>
+            <li class="level-3"><a href="#toc_what-are-enumerables">What Are Enumerables?</a></li>
+            <li class="level-3"><a href="#toc_enumerables-in-ember">Enumerables in Ember</a></li>
+            <li class="level-3"><a href="#toc_the-enumerable-interface">The Enumerable Interface</a></li>
+        </ol>
 
-          <div id="back-to-top"><a href="http://emberjs.com/documentation/#">⬆ Back to Top</a></div>
+          <div id="back-to-top"><a href="#">⬆ 返回顶部</a></div>
         </div>
       
       <div id="content" class="has-sidebar">
-        
+
+      <div class="tip" style="color:#666;">译者注: 译文时间匆忙，难免慌张，不足之处烦请不吝赐教 —— <a href="https://twitter.com/laserji" target="_blank" title="求关注^_^">@laserji</a></div>
 <div class="chapter" id="introduction">
   <h2 id="toc_introduction">引言</h2>
   <h3 id="toc_what-is-ember-js">Ember.js 是什么?</h3>
@@ -353,9 +390,11 @@ categories of edge cases that developers struggle with every day.</p>
 
 </div>
 <div class="chapter" id="getting_started">
-  <h2 id="toc_getting-started">Getting Started</h2>
-<p>Depending on your needs, there are several ways to get started creating your 
+  <h2 id="toc_getting-started">入门</h2>
+<p>Depending on your needs, there are several ways to get started creating your
 first Ember.js app.</p>
+
+<p>根据你的需求，有几种方式可以创建你的第一个Ember.js app.</p>
 
 <p>If your needs are simple or you're interested in just playing around, you can 
 download the Ember.js Starter Kit. The Starter Kit is based on <a href="http://html5boilerplate.com/">HTML5 
@@ -364,19 +403,28 @@ or other dependencies. To begin, download the Starter Kit and unzip it. You can
 edit the Handlebars templates directly inside the <code>index.html</code> file, and the 
 Ember.js app itself lives in <code>javascripts/app.js</code>.</p>
 
+    <p>如果你的需求较简单或者只是感兴趣随便玩玩，你可以下载Ember.js入门套件（Starter Kit）。该入门套件基于<a href="http://html5boilerplate.com/">HTML5 样板</a>，无需任何构建工具、没有其他依赖。首先，下载入门套件并解压缩。你可以直接在<code>index.html</code>文件中编辑Handlebars模板，而Ember.js app本身在<code>javascripts/app.js</code>中。</p>
+
 <p>For larger apps, you may want to consider using Ruby on Rails. Rails helps you 
 manage your source code and other assets, while also providing the REST API 
 that your application will talk to.</p>
 
+    <p>对于大型app，你可能会考虑使用Ruby on Rails，Rails会帮你管理源代码及其他资源，同时也提供了你的应用将会与之通讯的REST API。</p>
+
 </div>
 <div class="chapter" id="object_model">
-  <h2 id="toc_the-ember-object-model">The Ember Object Model</h2>
+  <h2 id="toc_the-ember-object-model">Ember对象模型</h2>
 <p>Ember enhances the simple JavaScript object model to support bindings
 and observers, as well as to support a more powerful mixin-based
 approach to code sharing.</p>
 
+  <p>Ember增强了简单的JavaScript对象模型，使之能够支持绑定和观察者，同时也支持一种更加强大的、基于混合的（mixin-based）代码共享途径。</p>
+
 <p>At its most basic, you create a new Ember class by using the <code>extend</code>
 method on <code>Ember.Object</code>.</p>
+
+  <p>作为最基本的形式，你可以使用<code>Ember.Object</code>的<code>extend</code>方法创建一个新的Ember类。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -391,9 +439,13 @@ method on <code>Ember.Object</code>.</p>
 });</pre></td>
 </tr></tbody></table>
 </div>
+
 <p>Once you have built a new class, you can create new instances of the
 class by using the <code>create</code> method. Any properties defined on the class
 will be available to instances.</p>
+
+  <p>一旦你成功创建了一个新类，就可以使用<code>create</code>来创建类的实例了。类中定义的任何属性在实例中都是可用的。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -404,6 +456,9 @@ person.say(<span class="string"><span class="delimiter">"</span><span class="con
 </div>
 <p>When creating an instance, you can also add additional properties to the
 instance by passing in an object.</p>
+
+  <p>创建实例时，也可以通过传入对象来为实例增添额外的属性。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -426,9 +481,14 @@ tom.helloWorld() <span class="comment">// alerts "Hi my name is Tom Dale"</span>
 access properties using the <code>get</code> method, and set properties using the
 <code>set</code> method.</p>
 
+  <p>由于Ember支持绑定和观察者，因此你可以随时通过<code>get</code>方法访问属性，也可以通过<code>set</code>方法设置属性。</p>
+
 <p>When creating a new instance of an object, you can also override any
 properties or methods defined on the class. For instance, in this case,
 you could override the <code>say</code> method from the <code>Person</code> class.</p>
+
+  <p>当创建一个对象的新的实例时，也可以覆写类中定义的任何属性和方法。在本例中，作为例子，你可以覆写从<code>Person</code>类继承的<code>say</code>方法。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -449,10 +509,17 @@ you could override the <code>say</code> method from the <code>Person</code> clas
 </div>
 <p>You can use the <code>_super</code> method on the object (<code>super</code> is a reserved
 word in JavaScript) to call the original method you overrode.</p>
-<h3 id="toc_subclassing-classes">Subclassing Classes</h3>
+
+  <p>你可以使用对象的<code>_super</code>方法（<code>super</code>是JavaScript中的保留字）来调用被你覆写的原始方法。</p>
+
+<h3 id="toc_subclassing-classes">类的子类</h3>
+
 <p>You can also create subclasses of classes you create by using the
 <code>extend</code> method. In fact, when we created a new class above by calling
 <code>extend</code> on <code>Ember.Object</code>, we were <strong>subclassing</strong> <code>Ember.Object</code>.</p>
+
+  <p>你也可以使用<code>extend</code>方法为类创建子类。事实上，我们上面使用<code>Ember.Object</code>对象的<code>extend</code>方法创建新类时，即是创建了<code>Ember.Object</code>的<strong>子类</strong>。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -469,9 +536,15 @@ word in JavaScript) to call the original method you overrode.</p>
 </div>
 <p>When subclassing, you can use <code>this._super</code> to invoke methods you are
 overriding.</p>
-<h3 id="toc_reopening-classes-and-instances">Reopening Classes and Instances</h3>
+
+  <p>当创建子类时，你可以使用<code>this._super</code>来调用被你覆写的方法。</p>
+
+<h3 id="toc_reopening-classes-and-instances">重新打开类和实例</h3>
 <p>You don't need to define a class all at once. You can reopen a class and
 define new properties using the <code>reopen</code> method.</p>
+
+  <p>无需一次性将类定义完全，你可以使用<code>reopen</code>方法来重新打开（reopen）一个类并为其定义新的属性。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -486,6 +559,9 @@ Person.create().get(<span class="string"><span class="delimiter">'</span><span c
 </div>
 <p>When using <code>reopen</code>, you can also override existing methods and
 call <code>this._super</code>.</p>
+
+  <p>当使用<code>reopen</code>时，你也同样可以覆写已经存在的方法并调用<code>this._super</code>。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -504,6 +580,9 @@ call <code>this._super</code>.</p>
 </div>
 <p>As you can see, <code>reopen</code> is used to add properties and methods to an instance.
 But when you need to create class method or add the properties to the class itself you can use <code>reopenClass</code>.</p>
+
+  <p>正如你所见，<code>reopen</code>是用来为实例添加属性和方法的。而当你需要创建类的方法或为类本身添加属性时，则可使用<code>reopenClass</code>。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -519,10 +598,14 @@ But when you need to create class method or add the properties to the class itse
 });
 Person.createMan().get(<span class="string"><span class="delimiter">'</span><span class="content">isMan</span><span class="delimiter">'</span></span>) <span class="comment">// true</span></pre></td>
 </tr></tbody></table>
-</div><h3 id="toc_computed-properties-getters">Computed Properties (Getters)</h3>
+</div><h3 id="toc_computed-properties-getters">计算属性 （Getters）</h3>
+
 <p>Often, you will want a property that is computed based on other
 properties. Ember's object model allows you to define computed
 properties easily in a normal class definition.</p>
+
+  <p>你可能经常需要一个基于其他属性计算而来的属性。Ember的对象模型可以使你很轻松地在常规的类定义中定义计算属性。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -557,16 +640,26 @@ properties easily in a normal class definition.</p>
 tom.get(<span class="string"><span class="delimiter">'</span><span class="content">fullName</span><span class="delimiter">'</span></span>) <span class="comment">// "Tom Dale"</span></pre></td>
 </tr></tbody></table>
 </div>
+
 <p>The <code>property</code> method defines the function as a computed property, and
 defines its dependencies. Those dependencies will come into play later
 when we discuss bindings and observers.</p>
 
+  <p><code>property</code>方法将函数（function）定义为一个计算属性，并且定义了它的依赖关系。这些依赖在我们待会儿讨论绑定和观察者时会提到。</p>
+
 <p>When subclassing a class or creating a new instance, you can override
 any computed properties.</p>
-<h3 id="toc_computed-properties-setters">Computed Properties (Setters)</h3>
+
+  <p>当为类创建子类或者新的实例时，你可以覆写任何计算属性。</p>
+
+<h3 id="toc_computed-properties-setters">计算属性 （Setters）</h3>
+
 <p>You can also define what Ember should do when setting a computed
 property. If you try to set a computed property, it will be invoked with
 the key and value you want to set it to.</p>
+
+  <p>你也可以定义当设置计算属性时Ember所执行的动作。当你尝试设置计算属性时，可以使用对应的名-值（key and value）对其进行设置。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -617,13 +710,21 @@ person.get(<span class="string"><span class="delimiter">'</span><span class="con
 person.get(<span class="string"><span class="delimiter">'</span><span class="content">lastName</span><span class="delimiter">'</span></span>) <span class="comment">// Wagenet</span></pre></td>
 </tr></tbody></table>
 </div>
+
 <p>Ember will call the computed property for both setters and getters, and
 you can check the number of arguments to determine whether it is being called
 as a getter or a setter.</p>
-<h3 id="toc_observers">Observers</h3>
+
+  <p>对于setter和getter，Ember都会调用计算属性，你可以通过检查参数的个数来确定该计算属性究竟是被getter还是setter调用的。</p>
+
+<h3 id="toc_observers">观察者</h3>
+
 <p>Ember supports observing any property, including computed properties.
 You can set up an observer on an object by using the <code>addObserver</code>
 method.</p>
+
+  <p>Ember支持观察任何属性，包括计算属性。你可以使用<code>addObserver</code>方法在某个对象上设置观察者。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -664,11 +765,17 @@ person.addObserver(<span class="string"><span class="delimiter">'</span><span cl
 person.set(<span class="string"><span class="delimiter">'</span><span class="content">firstName</span><span class="delimiter">'</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">Brohuda</span><span class="delimiter">"</span></span>); <span class="comment">// observer will fire</span></pre></td>
 </tr></tbody></table>
 </div>
+
 <p>Because the <code>fullName</code> computed property depends on <code>firstName</code>,
 updating <code>firstName</code> will fire observers on <code>fullName</code> as well.</p>
 
+  <p>由于<code>fullName</code>这个计算属性依赖于<code>firstName</code>，所以更新<code>firstName</code>也会触发<code>fullName</code>上的观察者。</p>
+
 <p>Because observers are so common, Ember provides a way to define
 observers inline in class definitions.</p>
+
+  <p>由于观察者的应用非常普遍，Ember提供了一种能够在类定义的内部定义观察者的方式。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -698,12 +805,18 @@ are using Ember without prototype extensions:</p>
   }, <span class="string"><span class="delimiter">'</span><span class="content">fullName</span><span class="delimiter">'</span></span>)
 });</pre></td>
 </tr></tbody></table>
-</div><h4 id="toc_changes-in-arrays">Changes in Arrays</h4>
+</div><h4 id="toc_changes-in-arrays">以数组形式的改变</h4>
+
 <p>Often, you may have a computed property that relies on all of the items in an
 array to determine its value. For example, you may want to count all of the
 todo items in a controller to determine how many of them are completed.</p>
 
+  <p>通常，你可能用到某个计算属性，它的值是由某个数组中的全部项来决定的。例如，你可能需要计算出某个控制器（controller）中全部的待办事项，以此来决定它们当中有多少是完成了的。</p>
+
 <p>Here's what that computed property might look like:</p>
+
+  <p>下面是这个计算属性可能的样子：</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -730,14 +843,23 @@ todo items in a controller to determine how many of them are completed.</p>
 key <code>@each</code>. This instructs Ember.js to update bindings and fire observers for
 this computed property when one of the following four events occurs:</p>
 
+  <p>注意这里的依赖键值（dependent key）（<code>todos.@each.isDone</code>）包含了特殊的键<code>@each</code>。这个是告诉Ember.js，当下面四个事件之一发生时，更新绑定并且触发这个计算属性的观察者。</p>
+
 <ol>
 <li>The <code>isDone</code> property of any of the objects in the <code>todos</code> array changes.</li>
+<li>在<code>todos</code>中的任意对象的<code>isDone</code>属性发生改变时。</li>
 <li>An item is added to the <code>todos</code> array.</li>
+<li><code>todos</code>数组中增添了一项。</li>
 <li>An item is removed from the <code>todos</code> array.</li>
+<li><code>todos</code>数组中移除了一项。</li>
 <li>The <code>todos</code> property of the controller is changed to a different array.</li>
+<li>控制器的<code>todos</code>属性被替换为不同的数组。</li>
 </ol>
 
 <p>In the example above, the <code>remaining</code> count is <code>1</code>:</p>
+
+<p>在上面的例子中，<code>remaining</code>的计算结果为<code>1</code>：</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -746,8 +868,12 @@ this computed property when one of the following four events occurs:</p>
 <span class="comment">// 1</span></pre></td>
 </tr></tbody></table>
 </div>
+
 <p>If we change the todo's <code>isDone</code> property, the <code>remaining</code> property is updated
 automatically:</p>
+
+  <p>如果我们改变待办事项的<code>isDone</code>属性，则<code>remaining</code>属性就会自动更新。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -769,15 +895,23 @@ todos.pushObject(todo);
 App.todosController.get(<span class="string"><span class="delimiter">'</span><span class="content">remaining</span><span class="delimiter">'</span></span>);
 <span class="comment">// 1</span></pre></td>
 </tr></tbody></table>
-</div><h3 id="toc_bindings">Bindings</h3>
+</div>
+
+  <h3 id="toc_bindings">绑定</h3>
+
 <p>A binding creates a link between two properties such that when one changes, the
 other one is updated to the new value automatically. Bindings can connect
 properties on the same object, or across two different objects. Unlike most other
 frameworks that include some sort of binding implementation, bindings in
 Ember.js can be used with any object, not just between views and models.</p>
 
+  <p>绑定在两个属性之间创建了一个连接，这样一个属性改变时另一个也可以随之自动更新到最新的值。绑定也可以连接同一对象内的属性，或者跨越两个不同的对象。与其他大部分框架所包含的绑定实现不同的是，Ember.js的绑定可以用在任何对象上，而不仅仅用在视图和模型之间。</p>
+
 <p>The easiest way to create a two-way binding is by creating a new property
 with the string <code>Binding</code> at the end, then specifying a path from the global scope:</p>
+
+  <p>最简单的创建双向绑定的方法是，创建一个以<code>Binding</code>字串结尾的属性，然后指定一个相对于全局作用域（global scope）的路径：</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -802,15 +936,23 @@ App.husband.set(<span class="string"><span class="delimiter">'</span><span class
 App.wife.get(<span class="string"><span class="delimiter">'</span><span class="content">householdIncome</span><span class="delimiter">'</span></span>); <span class="comment">// 90000</span></pre></td>
 </tr></tbody></table>
 </div>
+
 <p>Note that bindings don't update immediately. Ember waits until all of your
 application code has finished running before synchronizing changes, so you can
 change a bound property as many times as you'd like without worrying about the
 overhead of syncing bindings when values are transient.</p>
-<h4 id="toc_one-way-bindings">One-Way Bindings</h4>
+
+  <p>注意这个绑定不会立即更新，Ember会等待应用的所有代码运行完成之后再同步变更，因此你可以随意改变某个绑定的属性，而不用担心同步这些临时值所耗费的开销。</p>
+
+<h4 id="toc_one-way-bindings">单向绑定</h4>
+
 <p>A one-way binding only propagates changes in one direction. Usually, one-way
 bindings are just a performance optimization and you can safely use
 the more concise two-way binding syntax (as, of course, two-way bindings are
 de facto one-way bindings if you only ever change one side).</p>
+
+  <p>单向绑定只将变更单向传播。通常，单向绑定只是为了性能优化，你可以放心地使用更加简洁的双向绑定语法（当然，如果你总是只改变一边的话，那么双向绑定事实上也是单向绑定了）。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -842,9 +984,12 @@ App.user.set(<span class="string"><span class="delimiter">'</span><span class="c
 App.userView.set(<span class="string"><span class="delimiter">'</span><span class="content">userName</span><span class="delimiter">'</span></span>, <span class="string"><span class="delimiter">"</span><span class="content">Truckasaurus Gates</span><span class="delimiter">"</span></span>);
 App.user.get(<span class="string"><span class="delimiter">'</span><span class="content">fullName</span><span class="delimiter">'</span></span>); <span class="comment">// "Krang Gates"</span></pre></td>
 </tr></tbody></table>
-</div><h3 id="toc_what-do-i-use-when">What Do I Use When?</h3>
+</div><h3 id="toc_what-do-i-use-when">何时用何物？</h3>
+
 <p>Sometimes new users are confused about when to use computed properties,
 bindings and observers. Here are some guidelines to help:</p>
+
+  <p>有时新用户对于何时使用计算属性、绑定和观察者很困惑。下面是一些帮助提示：</p>
 
 <ol>
 <li><p>Use <em>computed properties</em> to build a new property by synthesizing other
@@ -852,26 +997,40 @@ properties. Computed properties should not contain application behavior, and
 should generally not cause any side-effects when called. Except in rare cases,
 multiple calls to the same computed property should always return the same
 value (unless the properties it depends on have changed, of course.)</p></li>
+
+<li><p>使用<em>计算属性</em>创建由其他属性综合决定的新属性。计算属性不应该包含应用的行为，而且当调用时不应有任何附加影响。除非在极少数情况下，多次调用相同的计算属性应该总是返回同样的值（当然，除了属性所依赖的属性值改变的情况。）</p></li>
+
 <li><p><em>Observers</em> should contain behavior that reacts to changes in another
 property. Observers are especially useful when you need to perform some
 behavior after a binding has finished synchronizing.</p></li>
+
+<li><p><em>观察者</em>应该包含反映其他属性变化的行为。当你需要在绑定完成同步之后执行一些行为的时候，观察者会非常有用。</p></li>
+
 <li><p><em>Bindings</em> are most often used to ensure objects in two different layers
 are always in sync. For example, you bind your views to your controller using
 Handlebars. You may often bind between two objects in the same layer. For
 example, you might have an <code>App.selectedContactController</code> that binds to the
 <code>selectedContact</code> property of <code>App.contactsController</code>.</p></li>
+
+<li><p><em>绑定</em>通常用在确保位于不同层的对象总能保持同步。例如，你使用Handlebars绑定了你的视图和控制器，你也可能经常需要绑定同一层的两个对象。例如，你可能有个<code>App.selectedContactController</code>需要绑定在<code>App.contactsController</code>的<code>selectedContact</code>属性上。</p></li>
 </ol>
 
 </div>
 <div class="chapter" id="application">
-  <h2 id="toc_creating-a-namespace">Creating a Namespace</h2>
+  <h2 id="toc_creating-a-namespace">创建命名空间</h2>
+
 <p>Every Ember app should have an instance of <code>Ember.Application</code>. This object
 will serve as the globally-accessible namespace for all of the other classes
 and instances in your app. Additionally, it sets up event listeners on the page
 so that your views receive events when users interact with your user interface
 (which you'll learn about later.)</p>
 
+    <p>每个Ember app都应该有一个<code>Ember.Application</code>的实例。这个对象将会作为你的app中所有类和实例的全局可访问的命名空间（globally-accessible namespace）。此外，它也在页面上设置了事件监听器，确保当用户与你的用户界面进行交互时你的视图可以接收到事件（稍后你会了解到这些）。</p>
+
 <p>Here's an example of an application:</p>
+
+<p>这里是一个应用的例子：</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre></pre></td>
   <td class="code"><pre>window.App = Ember.Application.create();</pre></td>
@@ -880,8 +1039,13 @@ so that your views receive events when users interact with your user interface
 <p>You can call your namespace whatever you'd like, but it must begin
 with a capital letter in order for bindings to find it.</p>
 
+    <p>你可以随意为你的命名空间命名，不过必须以大写字母开头，这样绑定才能找到它。</p>
+
 <p>If you are embedding an Ember application into an existing site, you can
 have event listeners set up for a specific element by providing a <code>rootElement</code> property:</p>
+
+    <p>如果要将Ember应用嵌入到某个现存的网站中，可以通过提供<code>rootElement</code>属性来将某个特定的元素作为事件监听器。</p>
+
 <div class="highlight javascript"><div class="ribbon"></div><table class="CodeRay"><tbody><tr>
   <td class="line-numbers" title="double click to toggle" onDblClick="with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }"><pre>1
 2
@@ -893,6 +1057,7 @@ have event listeners set up for a specific element by providing a <code>rootElem
 </tr></tbody></table>
 </div>
 </div>
+
 <div class="chapter" id="handlebars">
   <h2 id="toc_describing-your-ui-with-handlebars">Describing Your UI with Handlebars</h2><h3 id="toc_handlebars">Handlebars</h3>
 <p>Ember comes bundled with <a href="http://www.handlebarsjs.com/">Handlebars</a>, a semantic templating language. These templates look like regular HTML, with embedded expressions.</p>
