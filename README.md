@@ -7,3 +7,4 @@ EmberJs 中文文档 by <a href="https://twitter.com/laserji" target="_blank">@l
 
 Github地址：https://github.com/emberjs/ember.js
 
+Web访问地址：http://ued.github.com/emberjs-doc-cn/
